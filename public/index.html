@@ -14,7 +14,7 @@
 <body>
     <header>
         <div class="top">
-            <h2>doyoulikeMeme?</h2>
+            <h2>do you like Meme?</h2>
         </div>
 
     </header>
@@ -28,16 +28,25 @@
     </div>
 
     <div class="main">
+      <!-- Homepage Image + Comment -->
         <div class="images">
-            <img src="images/cat.png" alt="" />
+            <img src="images/cat.png" alt=""  id="memeimage"/>
         </div>
+        <!-- Thumbs up and thumbs down images -->
         <div class="thumbs">
             <a href="#"><img src="images/thumbsup.png" alt="" class="thumbsup" /></a>
             <a href="#"><img src="images/thumbsdown.png" alt="" class="thumbsdown" /></a>
+        </div>
+        <div class="fivepics hidden">
+          <img src="images/cat.png" alt="meme" />
+          <img src="images/cat.png" alt="meme" />
+          <img src="images/cat.png" alt="meme" />
+          <img src="images/cat.png" alt="meme" />
+          <img src="images/cat.png" alt="meme" />
 
         </div>
 
-        <form class="">
+        <form class="commentforms">
             <input class="usernameval" name="username" name="name" value="" placeholder="Username" />
             <input class="messageval" name="usermessage" type="text" id="usermsg" size="63" placeholder="Submit your comment here..." />
             <button type="submit" name="submit"></button>
@@ -62,6 +71,10 @@
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/underscore/underscore.js" charset="utf-8"></script>
     <script src="main.js" charset="utf-8"></script>
+    <script src="thumbs.js" charset="utf-8"></script>
+    <script src="topworst.js" charset="utf-8"></script>
+    <script src="imagearray.js" charset="utf-8"></script>
+
 </body>
 
 </html>

@@ -1,0 +1,7 @@
+    var imageurl = ['https://cdn.meme.am/instances/500x/57505357.jpg', 'http://i.imgur.com/PpPSxK5.png', 'http://m.memegen.com/ajrpaw.jpg', 'http://s2.quickmeme.com/img/85/850a61abc00b53f7c804cc85711cf7d1305da78e5a35aae0b230a660db160c92.jpg', 'http://66.media.tumblr.com/c5ce0bc865375c96ae6c77c38c109f8d/tumblr_ndwldyT6Uy1tbhzhno1_1280.png', 'http://s2.quickmeme.com/img/b7/b7206150806bb17c9c0dce0f0d978cd60f0a8a9ac4e066c9f5c34246d084142c.jpg', 'http://s2.quickmeme.com/img/8d/8dd68ee00c6ac8abcc1407e244d4692f4b5d114afa357bca6f3abdd7d8c2a627.jpg', 'http://s2.quickmeme.com/img/bf/bfc8800a2540c5274ebce706b295ed3102600ff4f50a934426edeb165c5fb49d.jpg', 'https://cdn.meme.am/instances/61075097.jpg', 'https://s-media-cache-ak0.pinimg.com/736x/dc/e3/ff/dce3fff641752d4bf50eb4b4d9cbfd34.jpg', 'http://memeguy.com/photos/images/what-im-always-thinking-on-every-friday-and-every-other-day-140271.png', 'http://ct.fra.bz/ol/fz/sw/i45/5/1/24/fbz_abbe2c83826642ed8d791e298bdb72f1.jpg', 'http://elitebusinessevolution.com/wp-content/uploads/2013/03/web-coding-meme-digital-marketing.jpg', 'https://slaymyboredom.files.wordpress.com/2012/03/coding-problems.jpg', 'https://s-media-cache-ak0.pinimg.com/736x/2b/87/17/2b8717e385f04061c8b6b78cd4c663c7.jpg', 'https://wutcode.files.wordpress.com/2013/12/31804326.jpg', 'https://cdn.meme.am/instances/52811598.jpg', 'https://s-media-cache-ak0.pinimg.com/736x/ff/89/1c/ff891c36d10cededa0411a9100f3befe.jpg', 'https://wyncode.co/wp-content/uploads/2014/08/31.jpg' ];
+
+
+
+if (data.click === 1 && data.meme === url) {
+  
+}
