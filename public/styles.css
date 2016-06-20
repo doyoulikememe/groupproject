@@ -1,7 +1,7 @@
-/*body {
-  font-family: 'Chewy', cursive;
-}*/
-
+body {
+  background-color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
 .page1image img {
     position: relative;
     width: 100%;
@@ -11,15 +11,72 @@
     margin-left: 35%;
 }
 .best a {
-  padding-right: 47px;
+  margin-right: 15px;
+width: 144px;
+  /*padding-right: 47px;*/
+  color: #0cf;
+  border-bottom: 3px solid #0cf;
+
+}
+.best a:hover{
+  border-bottom: 10px solid #0cf;
+
+}
+.create a {
+  margin-right: 15px;
+width: 144px;
+  /*padding-right: 47px;*/
+  color: #fff35c;
+  border-bottom: 3px solid #fff35c;
+
+}
+.create a:hover{
+  border-bottom: 10px solid #fff35c;
+
+}
+.contact a {
+  margin-right: 15px;
+width: 144px;
+  /*padding-right: 47px;*/
+  color: #f66;
+  border-bottom: 3px solid #f66;
+
+}
+.contact a:hover{
+  border-bottom: 10px solid #f66;
+
+}
+.login a {
+  margin-right: 15px;
+width: 144px;
+  /*padding-right: 47px;*/
+  color: #9932cc;
+  border-bottom: 3px solid #9932cc;
+
+}
+.login a:hover{
+  border-bottom: 10px solid #9932cc;
+
+}
+.worst a {
+  margin-right: 15px;
+width: 144px;
+   color: #0f9;
+   border-bottom: 3px solid #0f9;
+       /*PADDING-LEFT: 28px;*/
+
+}
+.worst a:hover {
+  border-bottom: 10px solid #0f9;
+
 }
 h2 {
-    text-align: center;
-    font-family: 'Chewy', cursive;
-    font-size: 100px;
-    margin-top: 5px;
-    color: #ff9100;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Candal', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 53px;
+  margin-top: 19px;
+  color: white;
 }
 .comment {
     display: inline-block;
@@ -27,28 +84,33 @@ h2 {
 .usernameval {
     display: inline-block;
     width: 100%;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.commentforms {
+      margin-top: -134px;
 }
 
 
 .top {
     left:0; right:0;
-    height: 147px;
-    background-color: #e6e6e6;
-    border: solid black 1px;
+    height: 70px;
 }
 
 .main {
   margin-top: 46px;
   position: absolute;
-  margin-left: 370px;
-  margin-right: 344px;
-  font-family: 'Dosis', sans-serif;
+  margin-left: 300px;
+    margin-right: 291px;
+      font-family: 'Dosis', sans-serif;
 }
 .comments   {
-  font-size: 20px;
+  font-size: 16px;
   border: solid 1px;
-  background-color: #e6e6e6;
+  background-color: #fff;
   color: grey;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 .main ul {
@@ -60,58 +122,62 @@ img {
   width: 100%;
 height: 320px;
 }
-.thumbs img {
-  width: 22%;
-  height: 88px;
-  margin-bottom: 25px;
-  margin-top: 11px;
-  /*border: solid black 1px;*/
-  border-radius: 28px;
-  background-color: #ff9100;
-  padding: 13px;
-}
+
 .thumbs {
     margin-left: 174px;
 }
 .thumbs a {
   padding-right: 15px;
 }
+.thumbsup  {
+  position: relative;
+/* left: -391px; */
+right: 306px;
+top: -272px;
+width: 25%;
+height: 184px;
+}
+.thumbsup:hover {
+  transform: scale(1.1);
+  opacity: .8;
 
+}
+.thumbsdown  {
+  position: relative;
+/* left: -391px; */
+    left: 335px;
+    top: -272px;
+width: 25%;
+height: 184px;
+}
+.thumbsdown:hover {
+  transform: scale(.9);
+  opacity: .8;
+}
+
+.nav {
+  /*background-color: #93f;*/
+  font-family: 'Open Sans', sans-serif;
+}
 
 .nav ul {
+  font-size: 20px;
   list-style: none;
-  background-color: #444;
   text-align: center;
   padding: 0;
   margin: 0;
 }
 .nav li {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
   line-height: 40px;
   height: 40px;
-  border-bottom: 1px solid #888;
-  text-shadow: .5px 0 #ff9100, 0 .5px #ff9100, .5px 0 #ff9100, 0 -1px #ff9100;
-
+  display: inline-block;
+  margin-right: -4px;
 }
 
 .nav a {
   text-decoration: none;
-  color: #fff;
   display: block;
-  transition: .3s background-color;
 }
-
-.nav a:hover {
-  background-color: #005f5f;
-}
-
-
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
-
 
 .comments li {
       margin-bottom: 37px;
@@ -120,10 +186,28 @@ height: 320px;
   color: grey;
   text-decoration: none;
 }
+.comments a:hover {
+  color: red;
+}
 #usermsg {
   width: 100%;
-}
+  font-family: 'Open Sans', sans-serif;
 
+}
+button {
+  background-color: black;
+  border: none;
+}
+h5 {
+      color: #fff;
+}
 .images img {
-  border: solid black 1px;
+border-radius: 5px;
+}
+.fivepics {
+  display: inline-block;
+}
+.fivepics img {
+  display: inline-block;
+  margin-bottom: 30px;
 }
