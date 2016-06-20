@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <title>doyoulikememe</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" media="screen" title="no title" charset="utf-8">
-    <link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Dosis:300,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Kanit:800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
 </head>
@@ -14,31 +16,44 @@
 <body>
     <header>
         <div class="top">
-            <h2>doyoulikeMeme?</h2>
+            <h2>DO YOU LIKE MEME?</h2>
         </div>
 
     </header>
     <div class="nav">
         <ul>
-            <li class="best"><a href="#">Top Memes</a></li>
-            <li class="worst"><a href="#">Worst Memes</a></li>
+
+            <li class="best"><a href="#">BEST</a></li>
+            <li class="worst"><a href="#">WORST</a></li>
+            <li class="login"><a href="#">LOGIN</a></li>
+            <li class="create"><a href="#">CREATE</a></li>
+            <li class="contact"><a href="#">CONTACT</a></li>
 
         </ul>
 
     </div>
 
     <div class="main">
+      <!-- Homepage Image + Comment -->
         <div class="images">
-            <img src="images/cat.png" alt="" />
+            <img src="images/cat.png" alt=""  id="memeimage"/>
         </div>
+        <!-- Thumbs up and thumbs down images -->
         <div class="thumbs">
-            <a href="#"><img src="images/thumbsup.png" alt="" class="thumbsup" /></a>
-            <a href="#"><img src="images/thumbsdown.png" alt="" class="thumbsdown" /></a>
+            <a href="#"><img src="images/uparrow.png" alt="" class="thumbsup" /></a>
+            <a href="#"><img src="images/downarrow.png" alt="" class="thumbsdown" /></a>
+        </div>
+        <div class="fivepics hidden">
+          <img src="images/cat.png" alt="meme" id="image1"/>
+          <img src="images/cat.png" alt="meme" id="image2"/>
+          <img src="images/cat.png" alt="meme" id="image3"/>
+          <img src="images/cat.png" alt="meme" id="image4"/>
+          <img src="images/cat.png" alt="meme" id="image5"/>
 
         </div>
 
-        <form class="">
-            <input class="usernameval" name="username" name="name" value="" placeholder="Username" />
+        <form class="commentforms">
+           <input class="usernameval" name="username" name="name" value="" placeholder="Username" />
             <input class="messageval" name="usermessage" type="text" id="usermsg" size="63" placeholder="Submit your comment here..." />
             <button type="submit" name="submit"></button>
             <ul class="comments">
@@ -54,6 +69,7 @@
 
     </div>
 
+
     <footer>
 
     </footer>
@@ -62,6 +78,10 @@
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/underscore/underscore.js" charset="utf-8"></script>
     <script src="main.js" charset="utf-8"></script>
+    <script src="thumbs.js" charset="utf-8"></script>
+    <script src="topworst.js" charset="utf-8"></script>
+    <script src="imagearray.js" charset="utf-8"></script>
+    <script src="login.js" charset="utf-8"></script>
 </body>
 
 </html>
